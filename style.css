@@ -1,1 +1,10 @@
-style.css
+body {
+    background-color: yellow;
+      background-image: url("http://coolblackppt.com/wp-content/uploads/2014/01/The-hermit-design-free-seamless-tile-able-backgrounds.png");
+}
+
+h1 {
+    color: white;
+    margin-left: 20px;
+
+}
