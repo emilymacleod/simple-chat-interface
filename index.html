@@ -1,22 +1,30 @@
 <html>
 
-<head>
-<title>CHAT INTERFACE</title>
+	<head>
+		<title>new chat</title>
+	</head>
 
-<script>
+	<body>
+		<div id='place'></div>
+		<input type='text'></input>
+		<input type='submit' onclick='writeSomething('hi emily')'></input>
 
+		<div id="section">
+		<h1><CHAT WINDOW</h1>
+		<p>
+			Type your messages in here. Type your messages in here. 
+			Type your messages in here. Type your messages in here. 
+			Type your messages in here. Type your messages in here. 
+			Type your messages in here. Type your messages in here. 
+		</p>
 
+		<script>
+			var writeSomething = function(string){
+				document.getElementById("place").innerHTML=string;
+			};
 
+		</script>
+<!-- how do i get an input and write it to the dom-->
+	</body>
 
-
-</script>
-
-
-</head>
-<body>
-
-
-
-
-</body>
 </html>
