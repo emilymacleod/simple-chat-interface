@@ -1,7 +1,7 @@
 <html>
 
 	<head>
-		<title>new chat</title>
+		<title>new chat interface</title>
 		
   		<link rel="stylesheet" href="style.css">
 
@@ -9,9 +9,13 @@
 
 	<body>
 
+		<header><h1>chat goes here</h1>
+		</header>
 
-		<div id="section">
-			<h1>chat here</h1>
+		<div id="msg_section">
+		</div>
+		<section>
+			
 			<div id='messages'>
 				<p>
 					Message 1<br>
@@ -21,7 +25,7 @@
 					Message 5<br>
 				</p>
 			</div>
-
+		</section>
 
 		<div id='place'></div>
 			<form>
@@ -32,6 +36,7 @@
 
 
 		<script>
+
 			var writeSomething = function(string){
 				document.getElementById("place").innerHTML=string;
 			};
