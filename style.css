@@ -5,6 +5,11 @@ body {
 
 h1 {
     color: white;
-    margin-left: 20px;
+    margin-left: 14px;
+
+}
+
+p {
+    font-family: "Verdana";
 
 }
