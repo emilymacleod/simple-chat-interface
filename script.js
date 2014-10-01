@@ -4,6 +4,6 @@
         text += x.text-box.value + "<br>";
     };
 
-    document.getElementById
+    document.getElementById("msg-form").value =""
 
-    
+ 
