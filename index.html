@@ -14,35 +14,27 @@
 
 		<div id="msg_section">
 		</div>
-		<section>
-			
 			<div id='messages'>
-				<p>
+				
 					Message 1<br>
 					Message 2<br>
 					Message 3<br>
 					Message 4<br>
 					Message 5<br>
 					Message 6<br>
-				</p>
+				
 			</div>
-		</section>
+		</div>
+		
 
-		<div id='place'></div>
-			<form>
-				<input type='text'></input>
-				<input type='submit' onclick='writeSomething('hi em')'></input>
+		
+			<form id='msg-form'>
+				<input type='text' id='text-box'></input>
+				<input type='submit' onclick='writeSomething()'></input>
 			</form>
+
 		<script type='text/javascript' src='script.js'></script>
 
-
-		<script>
-
-			var writeSomething = function(string){
-				document.getElementById("place").innerHTML=string;
-			};
-
-		</script>
 <!-- how do i get an input and write it to the dom-->
 	</body>
 

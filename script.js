@@ -1,4 +1,5 @@
-
- var addMessage ="hi emily"
- document.write(addMessage.toLowerCase() + "br");
-
+ function sendMessage(event){
+    var x = document.getElementById("msg-form");
+    var text = "";
+        text += x.text-box.value + "<br>";
+    };
