@@ -46,14 +46,15 @@ input {
 	border: 20px red;
 	width: 100%;
 	height: 40px;
+	margin-left: 14px;
 	font-family: verdana;
 	font-size: 24px;
 	text-align: center;
-	color: white;
+	background-color: gray;
 }	
 
 #inputArea {
-	margin-left: 25px;
-	width: 500px;
+	margin-left: 25%;
+	width: 50px;
 	padding-bottom: 25px;
 }

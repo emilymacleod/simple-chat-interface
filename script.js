@@ -6,4 +6,6 @@
 
     document.getElementById("msg-form").value =""
 
- 
+ function writeSomething(){
+ 	alert ("Welcome to my chat!");
+ }
