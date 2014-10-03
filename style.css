@@ -68,3 +68,10 @@ input {
 	width: 50px;
 	padding-bottom: 25px;
 }
+
+#name {
+	background-color: #ffffff;
+	color: black;
+	width: 100%;
+	margin-left: 14px;
+}
