@@ -1,11 +1,10 @@
  
 	// this is how i append messages to my chat window
     //    text += document.getElementById.value + "<br>";
- var person = '';
+ var person = "";
 
  function sendMessage(event){
     var msg = document.getElementById("msg-form").value;
-    var text = "";
     var parag = document.createElement("P");
 	var stuff = document.createTextNode(person+" said: "+msg);
 	parag.appendChild(stuff);
