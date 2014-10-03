@@ -21,16 +21,6 @@ input {
 	width: 400px;
 }
 
-a:link: {
-	color: #66ff00;
-}
-a:hover: {
-	color: #ffffff;
-}
-a:visited: {
-	color: #eeeeee;
-}
-
 #Header {
 	background-color: #D3D3D3;
 	width: 100%;
