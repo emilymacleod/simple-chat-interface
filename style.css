@@ -33,6 +33,16 @@ input {
     padding-bottom: 2px;
 }
 
+#nav {
+    line-height:20px;
+    background-color:#eeeeee;
+    height:100px;
+    width:100px;
+    float:left;
+    padding:5px;
+    margin-left: 14px; 
+}
+
 #TextArea {
 	border: 5px red;
 	width: 500px;
