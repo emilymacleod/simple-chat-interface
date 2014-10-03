@@ -1,14 +1,16 @@
  function sendMessage(event){
     var msg = document.getElementById("msg-form").value;
     var text = "";
-    var node =document.getElementById("msg-form")
-    document.getElementById("TextArea").innerHTML = msg;
+    var parag = document.createElement("P");
+	var stuff = document.createTextNode(msg);
+	parag.appendChild(stuff);
+	document.getElementById("TextArea").appendChild(parag);
     //    text += document.getElementById.value + "<br>";
 	};
 
     //     document.getElementById("msg-form").value ="";
 
  function writeSomething(){
- 	sendMessage("asd");
+ 	sendMessage("ads");
  	alert ("Welcome to my chat!");
  	};
