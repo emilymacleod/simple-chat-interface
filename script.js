@@ -14,10 +14,10 @@
     //     document.getElementById("msg-form").value ="";
    // this is how messages are sent to my chat window
 
- function writeSomething(){
- 	sendMessage("ads");
- 	alert ("Welcome to my chat!");
- 	};
+  function writeSomething(){
+ 	 sendMessage("ads");
+ 	 alert ("Welcome to my chat!");
+ 	 };
 
  	// this is how my enter name button function was made
 
